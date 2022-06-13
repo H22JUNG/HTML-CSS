@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li { 
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="./01-datalist1.html" method="get">
+        <ul>
+        <li>
+        <label for="name">이름</label>
+        <input type="text" name="name" id="name">
+        </li>
+        <li><label for="radio1">성별</label>
+
+         <input type="radio" name="gen" id="m" value="남자"><label for="m">남자</label>
+         <input type="radio" name="gen" id="w" value="여자"><label for="w">여자</label>
+         
+         </li>
+         <li><button>회원가입</button></li>
+         </ul>
+         
+    </form>
+
+    <br>
+    <br>
+    
+    <h1>예약 정보</h1>
+    <form action="" method="get">
+    <ul>
+        <li><label for="name">이&nbsp 름&nbsp</label>&nbsp&nbsp<input type="text"></li>
+        <br>
+        <li><label for="tel">휴대폰</label>&nbsp&nbsp<input type="text"></li>
+        <br>
+        <li><label for="email">이메일</label>&nbsp&nbsp<input type="email"></li>
+        <br>
+        <li><label for="reservation"></label><input type="submit" value="예약하기"></li>
+    </ul>
+    </form>
+
+<br>
+<br>
+
+
+    <ul>
+       <select name="분식" id="분식">
+            <option value="김밥">김밥</option>
+            <option value="떡볶이">떡볶이</option>
+            <option value="순대">순대</option>
+            <option value="어묵">어묵</option>
+            <option value="쫄면">쫄면</option>
+        </select>
+
+        <select name="분식" id="분식" size="4">
+            <option value="김밥">김밥</option>
+            <option value="떡볶이">떡볶이</option>
+            <option value="순대">순대</option>
+            <option value="어묵">어묵</option>
+            <option value="쫄면">쫄면</option>
+        </select>
+
+<br>
+<br>
+<br>
+ <br>
+        <select name="drink" id="drink">
+            <optgroup label="커피(coffee)">
+            <option value="a">아메리카노</option>
+            <option value="b">라떼</option>
+            <option value="c">에스프레소</option>
+            </optgroup>
+            <optgroup label="티(tea)">
+            <option value="d">자스민티</option>
+            <option value="e">얼그레이티</option>
+            </optgroup>
+            <optgroup label="전통차">
+            <option value="f">인삼차</option>
+            <option value="g">무슨차</option>
+            </optgroup>
+        </select>
+       
+    </ul>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <fieldset style="height: 150px; width: 300px;">
+        <legend><b>로그인</b></legend>
+        <form action="./01-datalist1.html" method="get">
+        <ul>
+            <li><label for="id">아이디&nbsp;&nbsp;&nbsp;</label><input type="text" name="id" id="id"></li>
+            <li><label for="pw">비밀번호</label><input type="password" name="pw" id="pw"></li>
+            <li><button>로그인</button>&nbsp;<button>취소</button></li>
+        </ul>
+       </form>
+    </fieldset>
+
+
+<br><br><br><br>
+
+<fieldset>
+    <h1>프런트엔드 개발자 지원서</h1>
+    <p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+    <hr>
+    <h4>개인정보</h4>
+    <ul>
+        <li><label for="name">이름</label><input type="text" placeholder="공백없이 입력하세요" autofocus></li>
+        <li><label for="tel">연락처</label><input type="text"></li>
+    </ul>
+    <h4>지원 분야</h4>
+    <ul>
+        <li><input type="radio" name="sec" id="radio1" value="p"><label for="radio1">웹 퍼블리싱</label></li>
+        <li><input type="radio" name="sec" id="radio2" value="a"><label for="radio2">웹 애플리케이션 개발</label></li>
+        <li><input type="radio" name="sec" id="radio3" value="d"><label for="radio3">개발 환경 개선</label></li>
+    </ul>
+    <h4>지원 동기</h4>
+    <li><textarea cols="50" rows="5" placeholder="본사 지원 동기를 간략히 써 주세요"></textarea></li>
+    <li><button>접수하기</button>&nbsp;<button>다시 쓰기</button></li>
+
+</fieldset>
+
+
+
+
+</body>
+</html>
